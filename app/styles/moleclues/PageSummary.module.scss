@@ -1,0 +1,16 @@
+@use "../common/variables" as var;
+
+.c_summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+}
+.c_title {
+  font-size: var.$h1-font-size;
+}
+.c_description {
+  margin-top: 25px;
+  font-size: var.$text-font-size;
+}

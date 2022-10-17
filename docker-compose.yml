@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    working_dir: "/app"
+    volumes:
+      - "./app:/app"
+    tty: true
+    environment:
+      - HOST=0.0.0.0 
+      - PORT=3000
+    command: >
+      ash -c "npm run dev"

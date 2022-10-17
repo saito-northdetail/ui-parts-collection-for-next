@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "type": "button",
+    "type_ja": "ボタン",
+    "parts": [
+      {
+        "id": 1,
+        "name": "opacityButton",
+        "name_ja": "透過",
+        "codepen_id": "WNzEGpG"
+      },
+      {
+        "id": 2,
+        "name": "flow",
+        "name_ja": "背景が流れる",
+        "codepen_id": "ZExJpea"
+      },
+      {
+        "id": 3,
+        "name": "ripples",
+        "name_ja": "クリック時に波紋が広がる",
+        "codepen_id": "VwXzKpN"
+      },
+      {
+        "id": 4,
+        "name": "3d",
+        "name_ja": "押し込み",
+        "codepen_id": "RwMZGpX"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "link",
+    "type_ja": "テキストリンク",
+    "parts": [
+      {
+        "id": 1,
+        "name": "opacity",
+        "name_ja": "透過",
+        "codepen_id": "oNqexGx"
+      },
+      {
+        "id": 2,
+        "name": "extend",
+        "name_ja": "下線が伸びる",
+        "codepen_id": "RwMZRGy"
+      },
+      {
+        "id": 3,
+        "name": "bgColor",
+        "name_ja": "背景色がつく",
+        "codepen_id": "ZExJOKQ"
+      },
+      {
+        "id": 4,
+        "name": "enTurnJa",
+        "name_ja": "日本語から英語に切り替わる",
+        "codepen_id": "yLKoayg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "tab",
+    "type_ja": "タブメニュー",
+    "parts": [
+      {
+        "id": 1,
+        "name": "default",
+        "name_ja": "デフォルト",
+        "codepen_id": "vYRJbxG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "search",
+    "type_ja": "検索ボックス",
+    "parts": [
+      {
+        "id": 1,
+        "name": "extend",
+        "name_ja": "クリック時に横に伸びる",
+        "codepen_id": "OJvjdev"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "parallax",
+    "type_ja": "パララックス",
+    "parts": [
+      {
+        "id": 1,
+        "name": "fadeIn",
+        "name_ja": "フェードイン",
+        "codepen_id": "abYyxWG"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "hamburger",
+    "type_ja": "ハンバーガーメニュー",
+    "parts": [
+      {
+        "id": 1,
+        "name_ja": "パターン1(通常/ドロップダウン)",
+        "codepen_id": "LYdaRpG"
+      }
+    ]
+  }
+]

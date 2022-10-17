@@ -1,0 +1,11 @@
+.c_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  &::after {
+    content: '';
+    display: block;
+    width: 30%;
+  }
+}
