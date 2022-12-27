@@ -38,7 +38,7 @@
 
   - ~~ESLint のセットアップ~~
   - ~~Prettier のセットアップ~~
-  - Stylelint のセットアップ
+  - ~~Stylelint のセットアップ~~
 
   ## 参考
 
