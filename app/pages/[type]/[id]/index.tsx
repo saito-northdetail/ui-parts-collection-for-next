@@ -1,18 +1,18 @@
-import type { NextPage } from 'next'
+import type { NextPage } from 'next';
 import { useRouter } from 'next/router';
-import PageSummary from '../../../components/moleclues/PageSummary'
-import { getPart, getParts } from '../../../api/parts/get'
-import { TPart, TPartsData } from '../../../types/parts';
+import { getPart, getParts } from '../../../api/parts/get';
 import CardIFrame from '../../../components/atoms/CardIFrame';
 import LayoutRelation from '../../../components/atoms/LayoutRelation';
+import PageSummary from '../../../components/moleclues/PageSummary';
 import CardPartsList from '../../../components/organisms/CardPartsList';
 import HeadSettings from '../../../components/organisms/HeadSettings';
+import { TPart, TPartsData } from '../../../types/parts';
 
 const ID: NextPage = () => {
   const router = useRouter();
   const { type, id } = router.query;
-  const typeText = (typeof type === 'string') ? type : '';
-  const idText = (typeof type === 'string') ? id : null;
+  const typeText = typeof type === 'string' ? type : '';
+  const idText = typeof type === 'string' ? id : null;
 
   // data
   let part: TPart | undefined | null = {
@@ -35,15 +35,15 @@ const ID: NextPage = () => {
 
   return (
     <>
-      { part && (
+      {part && (
         <>
           <HeadSettings title={`${part.name_ja} | UIパーツ集`} />
           <PageSummary title={part.name_ja} />
           <CardIFrame codepenId={part.codepen_id} />
-          { relationData && (
+          {relationData && (
             <>
               <LayoutRelation>
-                <PageSummary title="■他のスタイル" />
+                <PageSummary title='■他のスタイル' />
                 <CardPartsList PartsType={typeText} PartsDatas={relationData.parts} />
               </LayoutRelation>
             </>
@@ -51,7 +51,7 @@ const ID: NextPage = () => {
         </>
       )}
     </>
-  )
-}
+  );
+};
 
-export default ID
+export default ID;

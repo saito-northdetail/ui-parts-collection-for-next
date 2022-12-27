@@ -1,4 +1,4 @@
-import { TPartsDatas } from "../../types/parts";
+import { TPartsDatas } from '../../types/parts';
 const data: TPartsDatas = require('../../public/data/parts.json');
 
 export const getAllData = () => {
