@@ -1,14 +1,16 @@
-@use "../common/variables" as var;
+@use '../common/variables' as var;
 
 .l_footer {
-  font-size: 1.6rem;
   background: var.$nav-background-color;
+  font-size: 1.6rem;
+
   &Inner {
     display: flex;
     justify-content: center;
     padding: 50px;
   }
 }
+
 .c_copyright {
   color: var.$text-color;
 }

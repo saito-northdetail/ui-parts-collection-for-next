@@ -1,20 +1,22 @@
-@use "./variables" as var;
+@use './variables' as var;
 
 html {
   font-size: 10px;
   min-width: 1000px;
 }
+
 ul,
 ol {
   padding: 0;
 }
+
 li {
-  padding: 0;
   list-style-type: none;
+  padding: 0;
 }
 
 .inner {
-  width: var.$pc-max-width;
-  max-width: var.$pc-max-width;
   margin: 0 auto;
+  max-width: var.$pc-max-width;
+  width: var.$pc-max-width;
 }

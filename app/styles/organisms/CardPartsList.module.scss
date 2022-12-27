@@ -1,13 +1,13 @@
 .c_list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 50px 0;
-    &::after {
-      content: '';
-      display: block;
-      width: 30%;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 50px 0;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 30%;
   }
-  
+}

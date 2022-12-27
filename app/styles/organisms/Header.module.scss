@@ -1,18 +1,24 @@
-@use "../common/variables" as var;
+@use '../common/variables' as var;
 
 .l_header {
   background: var.$nav-background-color;
+
   &Inner {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+
+
+
+    
+    display: flex;
     height: 60px;
+    justify-content: space-between;
     padding: 0 15px;
   }
 }
+
 .c_logo {
+  color: var.$brand-color;
   font-size: var.$header-font-size;
   font-weight: 700;
-  color: var.$brand-color;
   text-decoration: none;
 }

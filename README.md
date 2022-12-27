@@ -12,6 +12,7 @@
 - Hosting：Github Pages
 
 ## ディレクトリ構成
+
 ```
 ./
 ┣ app/
@@ -30,10 +31,15 @@
 
 - React
   - ~~レイアウトを用意する~~
-  - ~~コンポーネント設計をAtomic Designを採用する~~
+  - ~~コンポーネント設計を Atomic Design を採用する~~
 - CSS
-  - ~~SCSSを使えるようにする~~
+  - ~~SCSS を使えるようにする~~
 - リンター/フォーマッター
-  - ~~ESLintのセットアップ~~
-  - Prettierのセットアップ
-  - Stylelintのセットアップ
+
+  - ~~ESLint のセットアップ~~
+  - ~~Prettier のセットアップ~~
+  - Stylelint のセットアップ
+
+  ## 参考
+
+  - https://zenn.dev/hungry_goat/articles/b7ea123eeaaa44
