@@ -10,13 +10,20 @@
 - Formatter：Prettier
 - CMS：data/parts.json
 - Hosting：Github Pages
-- CI/CD：Github Actions
 
 ## ディレクトリ構成
 ```
 ./
-┣ components/
-┗ pages/
+┣ app/
+  ┣ api/
+  ┣ components/
+    ┗atomic design
+  ┣ layouts/
+  ┣ pages/
+  ┗ styles/
+    ┗ components/と同じ構成でmodule.scss
+┣ docker-compose.yml
+┗ Dockerfile
 ```
 
 ## TODO
@@ -27,10 +34,6 @@
 - CSS
   - ~~SCSSを使えるようにする~~
 - リンター/フォーマッター
-  - ESLintのセットアップ
+  - ~~ESLintのセットアップ~~
   - Prettierのセットアップ
   - Stylelintのセットアップ
-- CI/CD
-  - Github Actionsでテスト〜デプロイをする
-  - Github Pagesにデプロイする
-  - 今回使用しているDockerコンテナを使用したCIにする(余裕があれば)
